@@ -1,0 +1,2 @@
+Prefix plugins/GOHeatmap/example/
+Plugin GOHeatmap inputfile parameters.viz.txt outputfile heatmap.pdf
