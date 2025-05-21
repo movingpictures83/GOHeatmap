@@ -30,6 +30,8 @@ pdf(outputfile)
 ###################################################
 ### code chunk number 21: GOexpress-UsersGuide.Rnw:543-547
 ###################################################
+#print(str(BP.5))
+write.csv(BP.5$GO$ave_score, paste(outputfile, "csv", sep="."))
 heatmap_GO(
     go_id = parameters["GOid", 2], result = BP.5, eSet=AlvMac, cexRow=0.6,
     cexCol=1, cex.main=1, main.Lsplit=30,#
